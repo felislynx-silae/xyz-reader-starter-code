@@ -17,9 +17,23 @@
 
 <resources>
     <color name="photo_placeholder">#ccc</color>
+    <color name="color_primary">#FF9800</color>
+    <color name="color_primary_light">#FFCC80</color>
+    <color name="color_primary_dark">#F57C00</color>
+    <color name="color_accent">#F50057</color>
 
-    <color name="theme_primary">#04561A</color>
-    <color name="theme_primary_dark">#04561A</color>
-    <color name="theme_accent">#04561A</color>
+    <!--
+    A100
+#FF80AB
+A200
+#FF4081
+A400
+#F50057
+A700
+#C51162
+-->
+
     <color name="ltgray">#ffe0e0e0</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
 </resources>
