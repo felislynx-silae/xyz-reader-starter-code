@@ -22,8 +22,8 @@ public class RemoteEndpointUtil {
     public static JSONArray fetchJsonArray() {
         String itemsJson = null;
         try {
-            itemsJson = fetchPlainText(Config.BASE_URL);
-        } catch (IOException e) {
+            itemsJson = fetchPlainText(Config.getBaseUrl());
+        } catch (Exception e) {
             Log.e(TAG, "Error fetching items JSON", e);
             return null;
         }
